@@ -172,23 +172,23 @@ syn match swiftNilOps "??"
 syn region swiftReservedIdentifier oneline
       \ start=/`/ end=/`/
 
-hi def link swiftImport Include
+hi def link swiftImport Keyword
 hi def link swiftImportModule Title
 hi def link swiftImportComponent Identifier
 hi def link swiftKeyword Statement
 hi def link swiftMultiwordKeyword Statement
-hi def link swiftTypeDefinition Define
-hi def link swiftMultiwordTypeDefinition Define
+hi def link swiftTypeDefinition Keyword
+hi def link swiftMultiwordTypeDefinition Keyword
 hi def link swiftType Type
 hi def link swiftTypePair Type
 hi def link swiftTypeName Function
 hi def link swiftConstraint Special
-hi def link swiftFuncDefinition Define
-hi def link swiftDefinitionModifier Define
-hi def link swiftInOutKeyword Define
+hi def link swiftFuncDefinition Keyword
+hi def link swiftDefinitionModifier Keyword
+hi def link swiftInOutKeyword Keyword
 hi def link swiftFuncKeyword Function
 hi def link swiftFuncKeywordGeneral Function
-hi def link swiftVarDefinition Define
+hi def link swiftVarDefinition Keyword
 hi def link swiftVarName Identifier
 hi def link swiftImplicitVarName Identifier
 hi def link swiftIdentifierKeyword Identifier
